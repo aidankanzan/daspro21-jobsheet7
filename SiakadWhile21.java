@@ -16,6 +16,10 @@ public class SiakadWhile21 {
                 System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
                 continue;
             }
+            if (nilai >= 80) { // Atau penyesuaian kriteria nilai A di kampus Anda
+                System.out.println("Nilai: A");
+                System.out.println("Bagus, pertahankan nilainya!");
+            }
 
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A");
